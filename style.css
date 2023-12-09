@@ -9,11 +9,13 @@ form {
   max-width: 600px;
   text-align: center;
   padding: 2rem;
+  border: solid #121212 3px;
+  margin: 20px auto;
 }
 
 img {
   border: solid #121212 3px;
-  height: 200px;
+  height: 250px;
   width: 90%;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -24,6 +26,8 @@ h4 {
   font-style: italic;
   font-weight: 600;
   margin: 10px;
+  word-spacing: 1.5px;
+  line-height: 1.2;
 }
 
 .email {
@@ -37,8 +41,23 @@ h4 {
 
 input {
   width: 200px;
+  text-align: center;
+  font-weight: 700;
+  padding: 3px;
+  border: 3px solid #121212;
 }
+
 
 .btn {
   width: 200px;
+  color: white;
+  background-color: #121212;
+  font-weight: 700;
+  padding: 3px;
+
+}
+
+a, .footer {
+ font-style: italic;
+ font-size: 16px;
 }
